@@ -1,0 +1,27 @@
+# Modbus input register Nibe S1255 german
+_address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isScale
+30008	BT3	Ruecklauf	°C	uint16be	1	0.1	0		value.temperature		false	false
+30009	BT7	Brauchwasser oben	°C	uint16be	1	0.1	0		value.temperature		false	false
+30010	BT6	Brauchwasserbereitung	°C	uint16be	1	0.1	0		value.temperature		false	false
+30011	BT10	Eintr.WQM	°C	uint16be	1	0.1	0		value.temperature		false	false
+30012	BT11	Austr.WQM	°C	uint16be	1	0.1	0		value.temperature		false	false
+30013	BT12	Kondensator	°C	uint16be	1	0.1	0		value.temperature		false	false
+30014	BT14	Heissgas	°C	uint16be	1	0.1	0		value.temperature		false	false
+30015	BT15	Fluessigkeitsleitung	°C	uint16be	1	0.1	0		value.temperature		false	false
+30038	BT1ds	AussenDurchschn.	°C	uint16be	1	0.1	0		value.humidity		false	false
+30040	BT25	ext.Vorlauft.	°C	uint16be	1	0.1	0		value.temperature		false	false
+30041	BF1	Volumenstrom	l/min	uint16be	1	0.1	0		value		false	false
+30087	BT29	Oeltemp.	°C	uint16be	1	0.001	0		value.temperature		false	false
+30559	BT37-1	Ruecklauf-WW	°C	uint16be	1	0.1	0		value.temperature		false	false
+30560	BT37-2	Ruecklauf-WQM-Kuehlung	°C	uint16be	1	0.1	0		value.temperature		false	false
+31018	BVT2	ber.Vorlauf	°C	uint16be	1	0.1	0		value.temperature		false	false
+31047	VF	Verdichterfrequenz	Hz	uint16be	1	0.1	0		value		false	false
+31049	EP100-EP15	Verdichter Aufnahmeleistung	W	uint16be	1	1	0		value		false	false
+31105	GP2	Drehzahl WQP	%	uint16be	1	1	0		value		false	false
+31533	GP1	Drehzahl HZ	%	uint16be	1	1	0		value		false	false
+31584	VDA-WW	Verdichter WW Arbeit G	kWh	uint16be	1	0.1	0		value		false	false
+31586	VDA-HZ	Verdichter HZ Arbeit G	kWh	uint16be	1	0.1	0		value		false	false
+32167	MvL	Momentan verw. Leistung	W	uint16be	1	1	0		value		false	false
+32197	UVWW	Umschaltventil WW		uint16be	1	1	0		value		false	false
+32284	EP-EVHZlh	Ernergieverbr.lh.HZ	kWh	uint16be	1	0.01	0		value		false	false
+32308	EPtEVK	Tatsächlicher Energieverbr.Komp.	W	uint16be	1	10	0		value		false	false
